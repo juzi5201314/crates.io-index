@@ -19,7 +19,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v2
+      #- uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
       #- name: Git fetch
@@ -29,6 +29,3 @@ jobs:
         uses: TG908/fork-sync@v1.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: juzi5201314
-          base: master
-          head: master 

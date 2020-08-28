@@ -28,4 +28,5 @@ jobs:
       - name: test
         uses: TG908/fork-sync@v1.1
         with:
+          owner: "rust-lang"
           github_token: ${{ secrets.GITHUB_TOKEN }}
